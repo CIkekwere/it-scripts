@@ -1,5 +1,5 @@
 # Application name to check
-$appName = "Netskope"
+$appName = ""
 
 # Check if the application exists among installed programs
 $installedPrograms = Get-WmiObject -Class Win32_Product | Select-Object -ExpandProperty Name
